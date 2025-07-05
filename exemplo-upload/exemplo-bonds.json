@@ -1,0 +1,62 @@
+[
+  {
+    "bond": "T-Bond 2030",
+    "date": "2024-06-01",
+    "price": 98.25,
+    "yield": 4.75
+  },
+  {
+    "bond": "T-Bond 2030",
+    "date": "2024-06-02",
+    "price": 97.95,
+    "yield": 4.78
+  },
+  {
+    "bond": "T-Bond 2030",
+    "date": "2024-06-03",
+    "price": 98.6,
+    "yield": 4.71
+  },
+  {
+    "bond": "T-Bond 2030",
+    "date": "2024-06-04",
+    "price": 98.9,
+    "yield": 4.7
+  },
+  {
+    "bond": "T-Bond 2030",
+    "date": "2024-06-05",
+    "price": 99.3,
+    "yield": 4.65
+  },
+  {
+    "bond": "T-Bond 2040",
+    "date": "2024-06-01",
+    "price": 102.1,
+    "yield": 4.1
+  },
+  {
+    "bond": "T-Bond 2040",
+    "date": "2024-06-02",
+    "price": 101.5,
+    "yield": 4.2
+  },
+  {
+    "bond": "T-Bond 2040",
+    "date": "2024-06-03",
+    "price": 103.0,
+    "yield": 4.0
+  },
+  {
+    "bond": "T-Bond 2040",
+    "date": "2024-06-04",
+    "price": 103.5,
+    "yield": 3.95
+  },
+  {
+    "bond": "T-Bond 2040",
+    "date": "2024-06-05",
+    "price": 104.1,
+    "yield": 3.92
+  }
+]

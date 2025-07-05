@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Visualizador de T-Bonds</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+</head>
+<body>
+  <h1>T-Bond Visualizer</h1>
+
+  <section class="instructions">
+    <h4>📤 Como usar:</h4>
+    <ol>
+      <li>Faça upload de um <strong>arquivo CSV ou JSON</strong> com os dados dos bonds.</li>
+      <li>Ou cole diretamente um JSON válido no campo abaixo.</li>
+      <li>Selecione os títulos desejados no menu e visualize o gráfico com <strong>preço x rendimento</strong>.</li>
+    </ol>
+
+    <h5>Formato JSON esperado:</h5>
+    <pre>[{"bond":"T-Bond 2030","date":"2024-06-01","price":98.25,"yield":4.75}]</pre>
+  </section>
+
+  <section class="upload">
+    <label><strong>Upload de Arquivo CSV/JSON:</strong></label><br />
+    <input type="file" id="fileInput" accept=".csv,.json" />
+
+    <hr />
+
+    <label><strong>Ou cole o conteúdo JSON:</strong></label><br />
+    <textarea id="jsonInput" rows="6" placeholder="Cole aqui o conteúdo JSON..."></textarea>
+    <button id="loadJson">Carregar JSON</button>
+  </section>
+
+  <section class="selector">
+    <label for="bondSelector"><strong>Selecione os Bonds:</strong></label><br />
+    <select id="bondSelector" multiple></select>
+  </section>
+
+  <canvas id="chart"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
