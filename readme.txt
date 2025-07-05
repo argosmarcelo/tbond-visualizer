@@ -1,5 +1,7 @@
 T-Bond Visualizer
 
+https://argosmarcelo.github.io/tbond-visualizer/
+
 1. Abra o arquivo index.html em um navegador moderno.
 2. Faça upload ou cole um JSON/CSV com os dados dos T-Bonds.
 3. Selecione os títulos desejados para ver o gráfico de preço e yield.
